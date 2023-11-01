@@ -51,7 +51,7 @@ var me;
             <div className="col-lg-4 mx-auto">
               <div className="auth-form-light text-left py-5 px-4 px-sm-5">
                 <div className="brand-logo text-center">
-                  <img src={require("../../assets/images/njc-logo.jpg")} alt="logo" />
+                  <img src={require("../../assets/images/nicn-logo.png")} alt="logo" />
                 </div>
                 <h4 className='text-center'>Hello! let's get started</h4>
                 <h6 className="font-weight-light text-center">Sign in to continue.</h6>
