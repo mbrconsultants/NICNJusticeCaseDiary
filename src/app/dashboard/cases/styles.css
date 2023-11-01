@@ -1,0 +1,94 @@
+.my-calendar .fc-day-number,
+.my-calendar .fc-daygrid-day-number {
+  color: green;
+}
+
+.my-calendar .fc-toolbar {
+  background-color: green;
+  color: white;
+}
+.Index {
+  font-family: sans-serif;
+  text-align: center;
+}
+*{
+  text-decoration-color: rgb(128, 68, 0);
+}
+.fc-event, .fc-day, .fc-col-header-cell-cushion, .fc-daygrid-day-number {
+  color: rgb(18, 20, 18);
+}
+
+.fc-day-header {
+  background-color: green;
+}
+.fc-event-time, .fc-event-title{
+  color: black;
+}
+.my-modal-btn {
+  margin: 10px;
+  padding: 5px 10px;
+
+}
+
+.my-modal-form {
+  margin: 20px;
+  padding: 10px;
+}
+.me-2{
+margin-left: 20px;
+}
+.addbutton {
+  background-color: green !important;
+  color: white !important;
+}
+.fc-event{
+  background-color: white !important;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Apply different background colors to each <li> */
+
+.list-a {
+  background-color: rgb(255, 0, 0);
+  color: white;
+  font-weight: 1000;
+}
+.list-b {
+  background-color: rgb(21, 0, 255);
+  color: white;
+  font-weight: 1000;
+}
+:hover.list-a{
+  background-color: white;
+  color:rgb(255, 0, 0);
+  font-weight: 1000;
+
+} 
+:hover.list-b{
+  background-color: white;
+  color: rgb(21, 0, 255);
+  font-weight: 1000;
+
+} 
+
+
+/* Style the <a> elements to look like form controls */
+.form-control {
+  display: block;
+  padding: 0.5rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+.filter-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.filter-input {
+  text-align: right;
+}

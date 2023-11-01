@@ -1,0 +1,28 @@
+@media print {
+    body * {
+      visibility: hidden;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    .hideBtn{
+        display: none;
+    }
+    #hideDate {
+        display: none;
+    }
+    #divToPrint,
+    #divToPrint * {
+      visibility: visible;
+    }
+    #divToPrint {
+      position: absolute;
+      left: 0;
+      top: 0;
+      zoom: 150%;
+      font-size: 20px;
+      page-break-inside: avoid;
+    }
+    .causeListHeading {
+      page-break-after: always;
+    }
+    
+  }

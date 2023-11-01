@@ -1,0 +1,20 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .push-right {
+    margin-left: auto;
+    margin-bottom: 7px;
+  }
+  .date-picker-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+  }
+  
+  .custom-date-picker {
+    margin-left: 10px;
+  }
+  
