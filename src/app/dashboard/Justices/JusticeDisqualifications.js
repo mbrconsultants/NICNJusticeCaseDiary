@@ -165,7 +165,7 @@ const JusticeDisqualifications = () => {
             className="col-md-12 text-center"
             style={{ textDecoration: `underline` }}>
             {" "}
-            <span>IN THE SUPREME COURT OF NIGERIA</span>
+            <span>IN THE NATIONAL INDUSTRIAL COURT OF NIGERIA</span>
             <br />
             HOLDEN AT ABUJA <br />
             SITTING ARRANGEMENT FOR THE WEEK OF{" "}
