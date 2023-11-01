@@ -30,7 +30,6 @@ const JusticeDisqualifications = () => {
   };
 
   const handleRmv = (e, index) => {
-  
     setMoreFields(
       moreFields.filter((x) => x.value !== moreFields[index].value)
     );
@@ -69,8 +68,6 @@ const JusticeDisqualifications = () => {
   };
 
   const getDisqualified = async (date) => {
-  
-
     setLoading(true);
     await endpoint
       .get(`/new-justice/assigned-cases-list/${date}`)
@@ -168,7 +165,7 @@ const JusticeDisqualifications = () => {
             className="col-md-12 text-center"
             style={{ textDecoration: `underline` }}>
             {" "}
-            <span>IN THE SUPREME COURT OF NIGERIA</span>
+            <span>IN THE NATIONAL INDUSTRIAL COURT OF NIGERIA</span>
             <br />
             HOLDEN AT ABUJA <br />
             SITTING ARRANGEMENT FOR THE WEEK OF{" "}
@@ -223,7 +220,6 @@ const JusticeDisqualifications = () => {
                           className="col-md-12 text-center text-bold mb-5 ml-5"
                           style={{
                             fontWeight: "bold",
-                           
                           }}>
                           {date
                             ? `${moment(date).format("dddd")} the ${moment(
