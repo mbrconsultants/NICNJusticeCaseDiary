@@ -47,7 +47,7 @@ export class Register extends Component {
                     <Link className="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" to="/dashboard">SIGN UP</Link>
                   </div>
                   <div className="text-center mt-4 font-weight-light">
-                    Already have an account? <Link to="/user-pages/login" className="text-primary">Login</Link>
+                    Already have an account? <Link to="/login" className="text-primary">Login</Link>
                   </div>
                 </form>
               </div>

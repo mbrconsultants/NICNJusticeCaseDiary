@@ -94,6 +94,7 @@ const AppRoutes = () => {
       <Switch>
       <Route path="/forgetpassword" component={ForgotPassword} />
       <Route path="/login" component={Login} />
+      <Route path="/sign-up" component={Register1} />
       <Route path="/reset-password" component={ResetPassord} />
 
       

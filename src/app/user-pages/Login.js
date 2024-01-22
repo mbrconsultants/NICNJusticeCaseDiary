@@ -62,9 +62,6 @@ var me;
                   <Form.Group className="d-flex search-field">
                     <Form.Control type="password" placeholder="Password" size="lg" className="h-auto" ref={passwordRef} />
                   </Form.Group>
-                  <div className="mt-3">
-                    <button className="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" id='login-btn' >SIGN IN</button>
-                  </div>
                   <div className="my-2 d-flex justify-content-between align-items-center">
                     <div className="form-check">
                       <label className="form-check-label text-muted">
@@ -75,7 +72,13 @@ var me;
                     </div>
                     <a href="/forgetpassword"  className="auth-link text-black">Forgot password?</a>
                   </div>
-                
+                  <div className="mt-3">
+                    <button className="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" id='login-btn' >SIGN IN</button>
+                  </div>
+
+                  <div className="text-center mt-4 font-weight-light">
+                    No account? <Link to="/sign-up" className="text-primary">Sign Up</Link>
+                  </div>
                  
                 </Form>
               </div>
