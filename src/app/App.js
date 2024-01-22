@@ -55,10 +55,10 @@ function App(props) {
 
     <div className="container-scroller">
       {navbarComponent}
-      <div className="container-fluid page-body-wrapper">
+      <div className="container-fluid page-body-wrapper" style={{ backgroundImage: !isAuthenticated ? 'url(/case_diary_landing.jpg)' : '', backgroundSize: 'cover'}}>
         {sidebarComponent}
         <div className="main-panel">
-          <div className="content-wrapper">
+          <div className="content-wrapper" style={{ backgroundImage: !isAuthenticated ? 'url(/case_diary_landing.jpg)' : '', backgroundSize: 'cover'}}>
             <AppRoutes /> 
             {settingsPanelComponent}
           </div>
